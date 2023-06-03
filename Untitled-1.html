@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>email</title>
+    <style type="text/css">
+        /* CSS styles for your email template */
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .header h1 {
+            color: #ff0000;
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .content {
+            margin-top: 20px;
+        }
+        .overlay{
+          position: absolute;
+          background-image: url('./back.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 90%;
+          top: 100px;
+          width: 90%;
+          overflow: hidden;
+        }
+        .content hr{
+          width: 50%;
+        }
+        .arabic h3{
+          font-weight: lighter;
+          margin-right: 5px;
+        }
+        .english p{
+          font-weight: lighter;
+          margin-left: 5px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #888888;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+      <div class="overlay"></div>
+
+      <div class="logoParent" style="width: 100px;">
+        <img src="./logo.png" alt="logo" class="hesham" style="width: 100%;">
+      </div>
+
+
+        <div class="header">
+          <img src="./title.png" alt="">
+          <br>
+          <br>
+          <h3>Subject:FREEZONER|License Rreleased</h3>
+        </div>
+
+
+        <div class="content" style="height:800px;padding:10px">
+          <div class="english" style="float: left; margin-bottom:20px">
+            <strong>Dear customer name,</strong>
+            <br>
+            <br>
+            <strong>Greetings from <span style="color:#c79922">Freezoner</span>,</strong>
+            <div style="padding:20px 0;">
+              <p>Congratulations and welcome on board to the Freezoner family!</p>
+              <p>We are pleased to inform you that your company has been successfully established.</p>
+              <p>Enclosed you will find all your corporate documents.</p>
+              <p>if you require any further clarifications, please feel free to reach out.</p>
+            </div>
+            <strong style="color:#c79922">Thank you</strong>
+            <br>
+            <br>
+            <strong>Yours sincerely,</strong>
+          </div>
+          <hr>
+          <div class="arabic" dir="rtl" style="float: right; margin-top:20px">
+            <h2>عميلنا العزيز</h2>
+            <h2>تحياتنا من<span style="color:#c79922"> Freezoner</span></h2>
+            <div style="padding:20px 0;">
+              <h3>تهانينا ومرحبا بم في عائلة فريزونر!</h3>
+              <h3>يسعدنا اخبارك أن شركتك قد تم تأسيسها بنجاح, ستجد مرفقا جميع مستندات شركتك</h3>
+              <h3>اذا كنت بحاجة الي أي توضيحات اضافية , فلا تتردد في التواصل معناز</h3>
+            </div>
+            <h2 style="color:#c79922">شكرا لك</h2>
+            <h2>تفضلوا بقبول فائق الاحترام</h2>
+          </div>
+        </div>
+
+
+        <div class="footer">
+            <p>© 2023 Your Company. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
